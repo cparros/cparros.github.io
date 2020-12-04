@@ -1,10 +1,13 @@
+head, body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 body { 
   background-color:lightgray ;
 }
 
 h1 {
-  border-bottom: solid lightblue;
+  border-bottom: solid lightblue thick;
 }
 
 .lead {
@@ -26,7 +29,6 @@ img {
 }
 
 .col-md-12 {
-  border-bottom: grey solid;
   margin-bottom: 10px;
 }
 
@@ -35,4 +37,15 @@ img {
   bottom: 0;
   width: 100%;
 }
+
+#clayton1 {
+  width: 30%;
+  height: auto;
+  border-radius: 100px;
+}
+
+#welcome-border {
+  border-bottom: transparent;
+}
+
 
