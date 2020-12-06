@@ -42,17 +42,26 @@ img {
 
 .portfolio {
   align-content: center;
-  padding: 10px auto;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-.row {
-  background-color: blanchedalmond;
+.portfolio1 {
+  align-content: center;
+  padding: 10px;
+  margin-left: 1%;
 }
+
 
 #clayton1 {
   width: 30%;
   height: auto;
   border-radius: 100px;
+}
+
+#portfolio-background {
+  background-color: blanchedalmond;
+
 }
 
 #welcome-border {
