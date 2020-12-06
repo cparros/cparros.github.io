@@ -10,17 +10,20 @@ h1 {
   border-bottom: solid lightblue thick;
 }
 
+img {
+  float: left;
+}
 
+nav {
+  border-top: lightblue solid;
+}
 
 p {
   text-align: justify;
   
 }
 
-img {
-  float: left;
-  padding-right: 10px;
-}
+
 
 .lead {
   border-bottom: solid lightblue;
@@ -30,14 +33,15 @@ img {
   background-color: lightblue;
 }
 
-.col-md-12 {
-  margin-bottom: 10px;
-}
-
 .card-footer {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+button:hover {
+  background-color: blanchedalmond;
+  transition: 1.5s;
 }
 
 .portfolio {
@@ -57,11 +61,16 @@ img {
   width: 30%;
   height: auto;
   border-radius: 100px;
+  border: solid;
+  margin: 1%;
 }
 
-#portfolio-background {
-  background-color: blanchedalmond;
+#footer {
+  margin-top: 5%;
+}
 
+#navtop {
+  margin-bottom: 5%;
 }
 
 #welcome-border {
