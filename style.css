@@ -6,6 +6,7 @@ body {
   background-color:lightgray ;
 }
 
+
 h1 {
   border-bottom: solid lightblue thick;
 }
@@ -14,12 +15,18 @@ img {
   float: left;
 }
 
+label {
+  float: left;
+  display: block;
+}
+
 nav {
   border-top: lightblue solid;
 }
 
 p {
   text-align: justify;
+  word-spacing: normal;
   
 }
 
@@ -29,8 +36,29 @@ p {
   border-bottom: solid lightblue;
 }
 
-.container-8 {
-  background-color: lightblue;
+.bg-light {
+ 
+  box-shadow: 5px 5px 5px grey;
+}
+
+.btn {
+  color: lightblue;
+}
+
+.container {
+  margin-left: 0 ;
+}
+
+ .col-md-8 {
+   padding-bottom: 1%;
+ }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 1px;
+  padding-left: 15px;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 .card-footer {
@@ -40,29 +68,35 @@ p {
 }
 
 button:hover {
-  background-color: blanchedalmond;
+  background-color: lightblue;
   transition: 1.5s;
 }
 
-.portfolio {
-  align-content: center;
-  padding: 10px;
-  margin: 0 auto;
+.img-fluid{
+ 
+  padding: 2% 1%;
+  margin: 1% ;
+  size: 100%;
 }
 
 .portfolio1 {
-  align-content: center;
-  padding: 10px;
-  margin-left: 1%;
+  
+  padding: 2% 1%;
+  margin: 1%;
 }
 
+.row {
+  margin-right: 1%;
+  padding-right: 2%;
+}
 
 #clayton1 {
   width: 30%;
   height: auto;
   border-radius: 100px;
   border: solid;
-  margin: 1%;
+  margin-right: 2%;
+  
 }
 
 #footer {
