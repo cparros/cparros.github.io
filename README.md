@@ -9,4 +9,4 @@ Currently learning Java script so burger nav on smaller screens will have funcit
 
 WORKING ON SEMANTIC HTML
 
-![screenshot](homepage.png)
+![screenshot](images/homepage.png)
