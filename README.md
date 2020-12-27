@@ -8,3 +8,5 @@ I was given Screenshots to "mimic" although the site didnt need to look exactly 
 Currently learning Java script so burger nav on smaller screens will have funcitonality.
 
 WORKING ON SEMANTIC HTML
+
+![screenshot](homepage.png)
