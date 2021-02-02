@@ -9,4 +9,6 @@ Currently learning Java script so burger nav on smaller screens will have funcit
 
 WORKING ON SEMANTIC HTML
 
+Link to Portfolio Site: https://cparros.github.io/
+
 ![screenshot](./images/homepage.png)
