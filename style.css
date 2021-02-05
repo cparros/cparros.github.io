@@ -6,6 +6,9 @@ body {
   background-color:lightgray ;
 }
 
+.card {
+  margin-bottom: 1%;
+}
 
 h1 {
   border-bottom: solid lightblue thick;
@@ -19,6 +22,8 @@ label {
   float: left;
 }
 
+
+
 nav {
   border-top: lightblue solid;
 }
@@ -29,10 +34,10 @@ p {
   
 }
 
-
-
 .lead {
   border-bottom: solid lightblue;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .bg-light {
@@ -45,23 +50,24 @@ p {
 }
 
 .card {
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .container {
-  /* margin-left: 0 ; */
+  margin-left: 0 ;
 }
 
  .col-md-8 {
-   /* padding-bottom: 1%; */
+   padding-bottom: 1%;
  }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-  /* width: 100%;
+  width: 100%;
   padding-right: 1px;
   padding-left: 15px;
   margin-right: 1%;
-  margin-left: 1%; */
+  margin-left: 1%;
+  border-radius: .25rem;
 }
 
 .card-footer {
@@ -75,10 +81,18 @@ button:hover {
   transition: 1.5s;
 }
 
+.img-proj {
+  padding: 2% 1%;
+  margin: 1% ;
+}
+
 .img-fluid{
   padding: 2% 1%;
   margin: 1% ;
   size: 100%;
+  border: solid; 
+  border-color: gray;
+  border-radius: 5px;
 }
 
 .portfolio-img {
@@ -88,25 +102,25 @@ button:hover {
 
 .portfolio1 {
   
-  /* padding: 2% 1%;
-  margin: 1%; */
+  padding: 2% 1%;
+  margin: 1%;
 }
 
 .row {
-  /* margin-right: 1%;
-  padding-right: 2%; */
+  margin-right: 1%;
+  padding-right: 2%;
 }
 
 #clayton1 {
   width: 30%;
   height: auto;
   border-radius: 100px;
-  border: solid; */
+  border: solid; 
   margin-right: 2%; 
 }
 
 #footer {
-  /* margin-top: 5%; */
+  margin-top: 5%;
 }
 
 #navtop {
