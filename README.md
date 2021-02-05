@@ -11,4 +11,4 @@ WORKING ON SEMANTIC HTML
 
 Link to Portfolio Site: https://cparros.github.io/
 
-![screenshot](/images/homepage.png)
+![screenshot](images/homepage.png)
