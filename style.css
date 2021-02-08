@@ -55,9 +55,12 @@ nav {
   border-radius:  10px;
 }
 
-p {
+.bio {
   word-spacing: normal;
   text-align: center;
+  width: 75%;
+  margin: 1% auto;
+  display: block
 }
 
 .lead {
