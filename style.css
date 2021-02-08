@@ -127,6 +127,7 @@ nav {
   height: 150px;
   width: 150px;
   padding-top: 20%;
+  border-radius: 5px;
 }
 
 .github {
