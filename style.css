@@ -12,7 +12,11 @@ body {
     background-size: 400% 400%;
     animation: gradient 40s ease infinite;
 }
-
+h6{
+  text-align: center;
+  color: rgb(79, 196, 235);
+  padding-top: 2%
+}
 h5 {
   text-align: center;
   border-bottom: lightblue solid;
