@@ -1,57 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Clayton Parros Portfolio</title>
+  <head>
+    <title>Clayton Parros Portfolio</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="style.css">
-
-</head>
-<body class="container-fluid">
-  <header>
-    <nav class="navbar navbar-light bg-light" id="navtop">
-      <a class="navbar-brand" href="#">Clayton Elias Parros</a>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-        </ul>
-        </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
-    </nav>
-  </header>
-
-<div class="container">
-  <div class="col-md-12"> 
-  <div class="row">
-  
-    <div class="col-md-12">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container-fluid">
     <header>
-      <h1>Portfolio </h1>
+      <nav class="navbar navbar-light bg-light" id="navtop">
+        <a class="navbar-brand" href="#">Clayton Elias Parros</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html"
+                  >Portfolio<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </nav>
     </header>
-    </div>
 
+    <div class="container bg-light">
       <div class="col-md-12">
-      <div class="row bg-light portfolio-background" >
-      <a class ="img-proj" href="https://cparros.github.io/project1/" target="_blank">
-        <img class="img-fluid portfolio-img" src="./Images/blackjack.png" alt="placeholder image">
-      </a>
-      <a class ="img-proj" href="https://cparros.github.io/daily-planner/" target="_blank">
+        <div class="row">
+          <div class="col-md-12 bg-light">
+            <header>
+              <h1>Portfolio</h1>
+            </header>
+          </div>
+
+          <div class="card bg-light" style="width: 18rem;">
+            <img class="card-img-top" src="./Images/blackjack.png" alt="twitter logo image">
+            <div class="card-body">
+              <h5 class="card-title">BlackJack</h5>
+              <p class="card-text">One of my first Projects. A blackjack Game! I helped mostly with the backend gameplay functionality</p>
+              <a href="https://cparros.github.io/project1/" class="btn btn-primary" target="_blank">Play Game!</a>
+              <a href="https://github.com/cparros/project1" class="btn btn-primary" target="_blank">Repo</a>
+            </div>
+          </div>
+
+      <!-- <div class="col-md-12">
+      <div class="row bg-light portfolio-background" > -->
+          <!-- <div class="card">
+          <div class ="card-img-top" src="./Images/blackjack.png" alt="image of blackjack game">
+            <div class="card-body">
+              <h5 class="card-title">BlackJack Game</h5>
+              <p class="card-text">Chack out the blackjack game made as a class project! A fun game with a retro feel!</p>
+              <a class ="img-proj" href="https://cparros.github.io/project1/" target="_blank">
+        <img class="img-fluid portfolio-img" src="./Images/blackjack.png" alt="placeholder image">BlackJack</a>
+          </div>
+          </div>
+        </div> -->
+          <!-- <a class ="img-proj" href="https://cparros.github.io/daily-planner/" target="_blank">
         <img class="img-fluid portfolio-img" src="./Images/DailyPlanner.png" alt="placeholder image"> 
-      </a>
-      </div>
+      </a> -->
+      <!-- </div>
       </div>
 
       <div class="col-md-12">
@@ -63,7 +90,7 @@
           <img class="img-fluid portfolio-img" src="./Images/WeatherApp.png" alt="placeholder image">
         </a>
         </div>
-        </div>
+      </div>
 
         <div class="col-md-12">
           <div class="row bg-light portfolio-background">
@@ -71,16 +98,15 @@
             <img class="img-fluid portfolio-img" src="./Images/passwordgen.png" alt="placeholder image">
             </a>
           </div>
-          </div>
+        </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    </div>
+    </div>
+    </div>
 
-
-</div>
-</div>
-</div>
-
-<nav class="navbar bottom navbar-dark bg-dark" id="footer">
-  <a class="navbar-brand" href="#"></a>
-</nav>
-
-</body>
+    <nav class="navbar bottom navbar-dark bg-dark" id="footer">
+      <a class="navbar-brand" href="#"></a>
+    </nav>
+  </body>
 </html>
