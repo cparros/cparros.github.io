@@ -13,6 +13,13 @@ body {
     animation: gradient 40s ease infinite;
 }
 
+h5 {
+  text-align: center;
+  border-bottom: lightblue solid;
+  border-top: lightblue solid;
+  margin: 2% 10%;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -58,16 +65,15 @@ nav {
 .bio {
   word-spacing: normal;
   text-align: center;
-  width: 75%;
+  width: 60%;
   margin: 1% auto;
   display: block
 }
 
 .lead {
   border-bottom: solid lightblue;
-  margin-top: 1%;
-  padding-bottom: 1%;
-  margin-bottom: 1%;
+  margin: 2% 10%;
+  padding: 2% 1%;
   text-align: center;
 }
 
@@ -83,6 +89,11 @@ nav {
 .card {
   display: inline-block;
   text-align: center;
+}
+
+.contact {
+  margin: 0 auto;
+  display: block;
 }
 
 .container {
@@ -136,9 +147,9 @@ button:hover {
   margin: 1% ;
 }
 
-.img-fluid{
+.img-fluid {
   padding: 2% 1%;
-  margin: 1% ;
+  margin: 2% ;
   size: 100%;
   border: solid; 
   border-color: gray;
