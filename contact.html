@@ -40,28 +40,25 @@
   
         <div class="col-md-10"> 
           <header>
-            <h1>Contact</h1>
+            <h1>Contact (UNDER CONSTRUCTION)</h1>
           </header>
           
         </div>
 
         <div class="col-md-12">
-          <label for="exampleInputName1">Name</label>
-          <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name">
-          <small id="nameHelp" class="form-text text-muted">Please provide your name so we know how to address you!</small>
-        </div>
-        <div class="col-md-12">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-        </div>
-        <div class="col-md-12">
-          <label for="exampleFormControlTextarea1">Message Me!</label>
-          <br>
-          <br>
-          <textarea class="col-md-12 form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message!"></textarea>
-        </div>
-        <div class="col-md-12">
-        <button type="submit" class="btn btn-primary" action="mailto:celparros@gmail.com">Submit</button>
+          <form action=”mailto:celparros@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            Name:
+            <br>
+            <input type=”text” size=”19″ name=”ContactName”>
+            <br>
+            <br>
+            Message:
+            <br>
+            <textarea name=”ContactCommentt” rows=”6″ cols=”20″></textarea>
+            <br>
+            <br> 
+            <input class="btn btn-primary" type=”submit” value=”Submit”>
+          </form>
         </div>
       </div>
     </div>
