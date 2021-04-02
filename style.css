@@ -208,6 +208,11 @@ button:hover {
   margin-bottom: 2%;
 } 
 
+#submit-btn {
+  align-content: center;
+  width: 53%;
+}
+
 #welcome-border {
   border-bottom: transparent;
 }
