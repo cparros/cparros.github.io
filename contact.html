@@ -34,6 +34,10 @@
             emailjs.sendForm("contact_service", "contact_form", this).then(
               function () {
                 console.log("SUCCESS!");
+                document.getElementById('name').value = ''
+                document.getElementById('email').value = ''
+                document.getElementById('message').value = ''
+                
               },
               function (error) {
                 console.log("FAILED...", error);
@@ -97,15 +101,15 @@
 
                    <p>Name:</p>
 
-                    <input type="text" name="user_name" />
+                    <input type="text" name="user_name" id="name" />
                     
                     <p>Email:</p>
 
-                    <input type="email" name="user_email" />
+                    <input type="email" name="user_email" id="email"/>
                   
                     <p>Message:</p>
 
-                    <textarea name="message"></textarea>
+                    <textarea name="message" id="message"></textarea>
                     <br />
                     <input
                       type="submit"
