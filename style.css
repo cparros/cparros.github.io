@@ -177,6 +177,14 @@ button:hover {
   padding-right: 2%;
 }
 
+.skills1 {
+  text-align: right;
+}
+
+.skills2 {
+  align-content: left;
+}
+
 #clayton-first {
   width: 25%;
   height: auto;
